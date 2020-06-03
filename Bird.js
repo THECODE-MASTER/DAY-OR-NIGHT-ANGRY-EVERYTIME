@@ -15,7 +15,7 @@ class Bird extends BaseClass {
     var pos=[this.body.position.x,this.body.position.y];
     this.trajectory.push(pos);
     }
-    console.log(this.trajectory);
+  
     for(var i=0;i<this.trajectory.length;i++){
       image(this.smokeim,this.trajectory[i][0],this.trajectory[i][1]);
     }
